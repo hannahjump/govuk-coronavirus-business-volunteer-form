@@ -137,6 +137,7 @@ en:
           label: "Yes"
         option_no:
           label: "No"
+<<<<<<< HEAD
       custom_select_error: Select whether you can offer space
     offer_transport:
       title: Can you offer transport?
@@ -184,6 +185,17 @@ en:
         option_no:
           label: "No"
       custom_select_error: Select whether you can offer care
+=======
+    offer_community_support:
+       title: Can you offer community support?
+       hint: For example distributing food or helping homeless people.
+       options:
+         option_yes:
+           label: "Yes"
+         option_no:
+           label: "No"
+       custom_select_error: Select which services you can provide
+>>>>>>> Add question 8: offer community support
     thank_you:
       title: "Thank you for telling us how you can help"
       sub_heading: "We'll be in touch to discuss how you can help."
