@@ -154,6 +154,32 @@ en:
         moving_goods:
           label: "Moving goods"
       custom_select_error: Select what kind of transport can you offer
+    business_details:
+      title: Your business details
+      company_name:
+        label: "Company name"
+      company_number:
+        label: "Company number (optional)"
+      company_size:
+        label: "Company size"
+        options:
+          under_50_people:
+            label: "Under 50 people"
+          50_to_250_people:
+            label: "50 to 250 people"
+          more_than_250_people:
+            label: "More than 250 people"
+        custom_select_error: Select your company size
+      company_location:
+        label: "Location of main office"
+        options:
+          united_kingdom:
+            label: "United Kingdom"
+          european_union:
+            label: "European Union"
+          rest_of_world:
+            label: "Rest of world"
+        custom_select_error: Select your company location
     thank_you:
       title: "Thank you for telling us how you can help"
       sub_heading: "We'll be in touch to discuss how you can help."
